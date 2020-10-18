@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap');
+
+body {
+  width: 60%;
+  background-color: #ccbe95;
+  font-family: 'Shadows Into Light', cursive;
+  color: #431515;
+  text-align: center;
+  margin: auto;
+}
+
+button {
+  margin: 30px;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+form {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  font-size: 1.5em;
+}
+
+form > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+textarea {
+  width: 100%;
+}
